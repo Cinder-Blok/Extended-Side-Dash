@@ -1,0 +1,53 @@
+CODE FOR 1080P VERSION
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+]::
+ExitApp
+return
+
+e::
+SetMouseDelay 0
+Send {b}
+MouseMove 950, 350
+Sleep 5
+Send {d down}
+Sleep 5
+Send {q}
+Send {d up}
+Sleep 5
+Click
+Sleep 5
+Send,{Space down}
+Sleep 5
+Send,{Space up}
+return
+
+CODE FOR 1440P VERSION
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+]::
+ExitApp
+return
+
+e::
+SetMouseDelay 0
+Send {b}
+MouseMove 1300, 450
+Sleep 5
+Send {d down}
+Sleep 5
+Send {q}
+Send {d up}
+Sleep 5
+Click
+Sleep 5
+Send,{Space down}
+Sleep 5
+Send,{Space up}
+return
